@@ -10,6 +10,9 @@ module.exports = {
         formInputDefault: "#8D8D8D",
         checkBoxDefault: "#E0E0E0",
         defaultIconsBg: "#1B1B1B",
+        footerSubBox: "#131313",
+        footerSubBoxInput: "#1E1E1E",
+        footerSubBoxInputText: "#616161",
       },
     },
     variants: {
