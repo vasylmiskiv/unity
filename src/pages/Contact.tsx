@@ -21,7 +21,7 @@ const Contact = () => {
   const [message, setMessage] = useState("");
 
   return (
-    <div className="pt-20 pb-12 font-poppins container mx-auto px-4">
+    <div className="pt-20 pb-12 font-poppins container mx-auto px-4 max-sm:pt-6">
       <h1 className="text-5xl font-bold max-sm:text-2xl">Contact Us</h1>
       <p className="text-xl text-silver mt-4 font-medium max-sm:text-sm max-sm:w-[200px] max-sm:m-auto max-sm:mt-4">
         Any question or remarks? Just write us a message!
@@ -222,7 +222,7 @@ const Contact = () => {
                 Send Message
               </button>
             </div>
-            <div className="flex justify-center absolute right-40 bottom-[-40px] select-none max-sm:bottom-[-24px] max-sm:w-40 max-sm:right-[154px]">
+            <div className="flex justify-center absolute right-36 bottom-[-40px] select-none max-sm:bottom-[-24px] max-sm:w-40 max-sm:right-[154px]">
               <img
                 src={paperPlane}
                 alt="paper-plane"
