@@ -222,7 +222,7 @@ const Contact = () => {
                 Send Message
               </button>
             </div>
-            <div className="flex justify-center absolute right-40 bottom-[-40px] select-none max-sm:bottom-[-24px] max-sm:w-40 max-sm:right-[168px]">
+            <div className="flex justify-center absolute right-40 bottom-[-40px] select-none max-sm:bottom-[-24px] max-sm:w-40 max-sm:right-[154px]">
               <img
                 src={paperPlane}
                 alt="paper-plane"
