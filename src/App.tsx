@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="flex flex-col min-h-screen">
-        <Header />
+        {/* <Header /> */}
         <div className="flex-1">
           <Contact />
         </div>
