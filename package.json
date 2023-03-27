@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "render-prebuild": "yarn && yarn build && yarn start"
+    "render-prebuild": "yarn && yarn build"
   },
   "eslintConfig": {
     "extends": [
