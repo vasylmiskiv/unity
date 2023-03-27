@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         silver: "#717171",
         bgcolor: "#F5F5F5",
+        navLinkDefault: "#1F1F1F",
         contactInfoSilver: "#C9C9C9",
         formInputDefault: "#8D8D8D",
         checkBoxDefault: "#E0E0E0",

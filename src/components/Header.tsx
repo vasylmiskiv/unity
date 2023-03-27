@@ -34,7 +34,14 @@ const Header = () => {
         <nav className="max-sm:hidden">
           <ul className="flex items-center font-semibold font-roboto">
             <li className="ml-12">
-              <NavLink to="/" className="opacity-70 hover:opacity-100">
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  `hover:opacity-100 flex items-center gap-1 ${
+                    isActive ? `opacity-100` : `opacity-70`
+                  }`
+                }
+              >
                 Home
               </NavLink>
             </li>
@@ -42,8 +49,8 @@ const Header = () => {
               <NavLink
                 to="/features"
                 className={({ isActive }) =>
-                  `opacity-70 hover:opacity-100 flex items-center gap-1 ${
-                    isActive && `opacity-100`
+                  `hover:opacity-100 flex items-center gap-1 ${
+                    isActive ? `opacity-100` : `opacity-70`
                   }`
                 }
               >
@@ -55,8 +62,8 @@ const Header = () => {
               <NavLink
                 to="/blog"
                 className={({ isActive }) =>
-                  `opacity-70 hover:opacity-100 flex items-center gap-1 ${
-                    isActive && `opacity-100`
+                  `hover:opacity-100 flex items-center gap-1 ${
+                    isActive ? `opacity-100` : `opacity-70`
                   }`
                 }
               >
@@ -67,8 +74,8 @@ const Header = () => {
               <NavLink
                 to="/shop"
                 className={({ isActive }) =>
-                  `opacity-70 hover:opacity-100 flex items-center gap-1 ${
-                    isActive && `opacity-100`
+                  `hover:opacity-100 flex items-center gap-1 ${
+                    isActive ? `opacity-100` : `opacity-70`
                   }`
                 }
               >
@@ -79,8 +86,8 @@ const Header = () => {
               <NavLink
                 to="/about"
                 className={({ isActive }) =>
-                  `opacity-70 hover:opacity-100 flex items-center gap-1 ${
-                    isActive && `opacity-100`
+                  `hover:opacity-100 flex items-center gap-1 ${
+                    isActive ? `opacity-100` : `opacity-70`
                   }`
                 }
               >
@@ -91,8 +98,8 @@ const Header = () => {
               <NavLink
                 to="/contact"
                 className={({ isActive }) =>
-                  `opacity-70 hover:opacity-100 flex items-center gap-1 ${
-                    isActive && `opacity-100`
+                  `hover:opacity-100 flex items-center gap-1 ${
+                    isActive ? `opacity-100` : `opacity-70`
                   }`
                 }
               >
@@ -194,6 +201,3 @@ const Header = () => {
 };
 
 export default Header;
-function usEffect(arg0: () => void) {
-  throw new Error("Function not implemented.");
-}
